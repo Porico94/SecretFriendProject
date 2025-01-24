@@ -19,8 +19,6 @@ btnAddFriends.addEventListener("click", () => {
     li.textContent = nameInput;
     listFriendsHTML.appendChild(li);
   }
-  console.log(listFriends);
-
   nameFriend.value = "";
 });
 
@@ -34,6 +32,7 @@ btnSortFriends.addEventListener("click", () => {
 
     //Limpiamos la lista de elementos que teniamos al agregar
     listFriendsHTML.innerHTML = "";
+
     // Crear un elemento <li> para agregarlo a la lista
     const li = document.createElement("li");
     li.textContent = result;
