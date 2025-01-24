@@ -3,6 +3,8 @@
 
 ## Descripción
 Aplicación web sencilla para realizar sorteos de amigo secreto de forma aleatoria.
+Para probar la aplicación web github pages nos brinda de forma gratuita un dominio para mostrar nuestro proyecto:
+https://porico94.github.io/SecretFriendProject/
 
 ## Funcionalidades
 * Agregar nombres de participantes mediante el botón añadir.
